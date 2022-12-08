@@ -1,0 +1,412 @@
+.overflow{
+    height: 50%;
+    overflow:hidden;
+
+}
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+    transform: scale(1.8);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 150px;
+    padding-top: 8px;
+
+}
+
+#hire-button{
+    margin-left:0px!important;
+    margin-top:5px!important;
+    width: 142px;
+
+}
+
+.know-more{
+    margin-bottom:20px;
+}
+.button-bottom {
+    margin-left:20px;
+}
+.button-card{
+    margin-right:2px;
+    width:90px;
+}
+.main-container{
+    margin-top:40px;
+    margin-right:20px;
+    margin-left:150px;
+    margin-bottom:40px;
+    width:80%;
+}
+.card-body-skills {
+    -moz-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-top:5px!important;
+    height: 700px;
+}
+.card-body-skillsReact{
+    -moz-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-top:5px!important;
+    height: 530px;
+}
+
+.card-body-experienceAngular{
+    -moz-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-top:5px!important;
+    height: 530px;
+}
+.card-body-skillsElectron{
+    -moz-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-top:5px!important;
+    height: 300px;
+}
+
+.card-body-skillsFullStack{
+    -moz-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-top:5px!important;
+    height: 460px;
+}
+
+.card-body-experience {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 700px;
+    }
+
+.card-body-experienceReact {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 530px;
+    }
+
+    .card-body-experienceElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 300px;
+    }
+
+    .card-body-experienceFullstack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 460px;
+    }
+
+
+
+    /* Button Css classes*/
+    .button {
+        display: inline-flex;
+        height: 40px;
+        width: 150px;
+        border: 2px solid #BFC0C0;
+        margin: 20px 20px 20px 20px;
+        color: #BFC0C0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .8em;
+        letter-spacing: 1.5px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background-color: #1e88e5;
+      }
+      
+a {
+    color: #BFC0C0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-5 a {
+    position: relative;
+    transition: all .45s ease-Out;
+  }
+  
+  #translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #1976d2;
+    position: absolute;
+    transition: all .3s ease-Out;
+  }
+  
+  #button-5:hover #translate {
+    left: 0;
+  }
+  
+  #button-5:hover a {
+    color: #727580;
+  }
+    
+
+    /* Flip over effect */ 
+
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+      }
+      /*bounce*/
+      /* SPIN BOX */
+      .spin {
+        position: relative;
+        animation: bounce cubic-bezier(0.19,1.0,0.22,1.0) .8s alternate infinite;
+        -webkit-animation: bounce cubic-bezier(0.19,1.0,0.22,1.0) .8s alternate infinite;
+        -moz-animation: bounce cubic-bezier(0.19,1.0,0.22,1.0) .8s alternate infinite;
+        
+      }
+        .spin:hover {
+        animation: spin 1s linear infinite !important;
+        -webkit-animation: spin 1s linear infinite !important;
+       -moz-animation: spin 1s linear infinite !important;
+      
+      }
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg);}
+        100% { -webkit-transform: rotate(360deg);}
+        
+      }
+      /*#avatar:hover{
+        transform: translateY(-7px) scale(1.05);
+        -webkit-transform: translateY(-7px) scale(1.05); /*maxthon
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+      }*/
+      #avatar{
+        animation: bounce cubic-bezier(0.19,1.0,0.22,1.0) .8s alternate infinite;
+        -webkit-animation: bounce cubic-bezier(0.19,1.0,0.22,1.0) .8s alternate infinite;
+        -moz-animation: bounce cubic-bezier(0.19,1.0,0.22,1.0) .8s alternate infinite;
+        /*maxthon duplicate*/
+      }
+      
+      @keyframes bounce {
+          to{
+          transform: translateY(-12px) scale(1.03);
+        }
+      }
+      @-webkit-keyframes bounce { /*maxthon duplicate*/
+          to{
+          -webkit-transform: translateY(-12px) scale(1.03);
+        }
+      }
+
+
+
+
+
+@media (max-width: 640px) {
+    .main-container{
+        margin-top:40px;
+        margin-right:20px;
+        margin-left:40px;
+        margin-bottom:40px;
+        width:80%;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 200px;
+        padding-top: 8px;
+        padding-left: 45px;
+        display: flex;
+    }
+    
+    #hire-button{
+        display:none
+    
+    }
+    .know-more{
+        margin-bottom:20px;
+    }
+    .card-body-skills {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 720px;
+    }
+    .card-body-skillsReact{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 520px;
+    }
+    .card-body-experienceReact {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 800px;
+    }
+    .card-body-experienceAngular {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 340px;
+    }
+    .card-body-experience {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 1150px;
+    }
+    .card-body-experienceElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 270px;
+    }
+
+    .card-body-skillsElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 270px;
+    }
+    .card-body-skillsFullStack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 330px;
+    }
+    .card-body-experienceFullstack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 330px;
+    }
+    .button-bottom {
+        margin-left:60px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main-container{
+        margin-top:40px;
+        margin-right:20px;
+        margin-left:290px;
+        margin-bottom:40px;
+        width:80%;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+    }
+    
+    #hire-button{
+    
+        margin-left:20px!important;
+    }
+    .know-more{
+        margin-bottom:20px;
+    }
+    .card-body-skills {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 720px;
+    }
+    .card-body-skillsReact{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 520px;
+    }
+    .card-body-experienceReact {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 520px;
+    }
+    .card-body-experienceAngular {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 520px;
+    }
+    .card-body-experience {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 720px;
+    }
+    .card-body-experienceElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 370px;
+    }
+
+    .card-body-skillsElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 370px;
+    }
+    .card-body-skillsFullStack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 430px;
+    }
+    .card-body-experienceFullstack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 430px;
+    }
+
+    .button-bottom {
+        margin-left:80px;
+    }
+}
