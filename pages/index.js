@@ -47,7 +47,7 @@ const Index = () =>
                                     <div className="py-3" key={i}>
                                         <h6 className="text-primary">{skill}</h6>
                                         <p className="text-secondary">{degree}</p>
-                                        <a className="text-dark" style={{paddingLeft:'220px',fontSize:'11px'}} href={project}>
+                                        <a className="text-dark" style={{fontSize:'11px'}} href={project}>
                                             <u>Check project</u>    
                                         </a> 
                                         
@@ -75,7 +75,7 @@ const Index = () =>
                                     <p className="text-secondary">{from} - {to}</p>
                                     <p className="text-primary" style={{textAlign:'justify'}}>{description}</p>
                                  </li>   
-                                 <div  style={{paddingLeft:'500px'}}>
+                                 <div>
                                  <a className="btn btn-primary border know-more"  href={url}>
                                         Know more 
                                     </a> 
