@@ -86,7 +86,7 @@ export const projects = [
         name: "ML Developer",
         description:"Please check out the ML developer section of this website",
         image:"ML.jpg",
-        url:"/node",
+        url:"https://ml-developer-portfolio.vercel.app/",
     },  {
         name: "Industrial IT",
         description:"Please check out the Industrial IT section of this website",
