@@ -91,6 +91,6 @@ export const projects = [
         name: "Industrial IT",
         description:"Please check out the Industrial IT section of this website",
         image:"Industry40.jpg",
-        url:"/fullstack",
+        url:"https://industrial-it-portfolio.vercel.app/",
     }
 ]
