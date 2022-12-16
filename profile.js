@@ -3,22 +3,22 @@ export const skills = [
     {
         skill: 'BH Chemical engineering',
         degree : 'Universitat Autonoma de barcelona',
-        project : 'https://ddd.uab.cat/search?f=author&p=Portero%20Leiva%2C%20Manuel&sc=1&ln=en'
+        project : 'https://www.dropbox.com/sh/0hphyx8llr9bvu7/AAArof83CAi9Awe9PvemWEGca?dl=0'
     },
     {
         skill: 'Healt and safety Master',
         degree : 'Universidad Ceu San Pablo',
-        project : ''
+        project : 'https://www.dropbox.com/sh/to5o9owoelv300d/AADpnXG5E0edLunAg5iJc016a?dl=0'
 
     },
     {
         skill: 'HNC Web Development',
         degree : 'Glasgow Kelvin College',
-        project : ''
+        project : 'https://www.dropbox.com/sh/kwkekm9xnpf4h86/AADv7DwZlcdxklb88r3CVG-la?dl=0'
     }, {
         skill: 'Bachelor Computer Science',
         degree : 'Institut Obert de Cataluña',
-        project : ''
+        project : 'https://www.dropbox.com/sh/41vx5o9ombbl83k/AADccV-jeM65XVwawhrFVBOBa?dl=0'
     }, {
         skill: 'Machine Learning Certificate',
         degree : 'Fondos de recuperacion europea',
