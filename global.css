@@ -229,6 +229,105 @@ a {
       }
 
 
+
+
+@media (min-width: 1200px) {
+    .main-container{
+        margin-top:5%;
+        margin-left:12%;
+        margin-bottom:5%;
+        width:100%;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 100px;
+        display: flex;
+    }
+    
+    #hire-button{
+        display:none
+    
+    }
+    .know-more{
+        margin-bottom:20px;
+    }
+    .card-body-skills {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 750px;
+    }
+    .card-body-skillsReact{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 520px;
+    }
+    .card-body-experienceReact {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 800px;
+    }
+    .card-body-experienceAngular {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 340px;
+    }
+    .card-body-experience {
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 750px;
+    }
+    .card-body-experienceElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 270px;
+    }
+
+    .card-body-skillsElectron{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 270px;
+    }
+    .card-body-skillsFullStack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        margin-top:5px!important;
+        height: 330px;
+    }
+    .card-body-experienceFullstack{
+        -moz-box-flex: 1;
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+        margin-top:5px!important;
+        height: 330px;
+    }
+    #button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width:50%;
+    }
+}
+
+
+
+
+
 @media (max-width: 640px) {
     .main-container{
         margin-top:5%;
@@ -514,102 +613,6 @@ a {
         margin-left:60px;
     }
 }
-
-
-@media (min-width: 1200px) {
-    .main-container{
-        margin-top:5%;
-        margin-left:12%;
-        margin-bottom:5%;
-        width:100%;
-    }
-
-    .img-fluid {
-        max-width: 100%;
-        height: 100px;
-        display: flex;
-    }
-    
-    #hire-button{
-        display:none
-    
-    }
-    .know-more{
-        margin-bottom:20px;
-    }
-    .card-body-skills {
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 0rem 1rem;
-        margin-top:5px!important;
-        height: 750px;
-    }
-    .card-body-skillsReact{
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 1rem 1rem;
-        margin-top:5px!important;
-        height: 520px;
-    }
-    .card-body-experienceReact {
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 0rem 1rem;
-        margin-top:5px!important;
-        height: 800px;
-    }
-    .card-body-experienceAngular {
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 0rem 1rem;
-        margin-top:5px!important;
-        height: 340px;
-    }
-    .card-body-experience {
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 0rem 1rem;
-        margin-top:5px!important;
-        height: 750px;
-    }
-    .card-body-experienceElectron{
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 0rem 1rem;
-        margin-top:5px!important;
-        height: 270px;
-    }
-
-    .card-body-skillsElectron{
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 1rem 1rem;
-        margin-top:5px!important;
-        height: 270px;
-    }
-    .card-body-skillsFullStack{
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 1rem 1rem;
-        margin-top:5px!important;
-        height: 330px;
-    }
-    .card-body-experienceFullstack{
-        -moz-box-flex: 1;
-        flex: 1 1 auto;
-        padding: 0rem 1rem;
-        margin-top:5px!important;
-        height: 330px;
-    }
-    #button-5 {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    width:50%;
-    }
-}
-
-
 
 @media (min-width: 1440px) {
     .main-container{
