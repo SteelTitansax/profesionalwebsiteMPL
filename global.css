@@ -519,7 +519,7 @@ a {
 @media (max-width: 1200px) {
     .main-container{
         margin-top:5%;
-        margin-left:15%;
+        margin-left:12%;
         margin-bottom:5%;
         width:100%;
     }
@@ -602,7 +602,7 @@ a {
         height: 330px;
     }
     .button-bottom {
-        margin-left:0px;
+        widht:25%
     }
 }
 
