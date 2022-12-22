@@ -525,7 +525,8 @@ a {
     }
 
     .img-fluid {
-        display: none;
+        max-width: 100%;
+        display: flex;
     }
     
     #hire-button{
@@ -540,7 +541,7 @@ a {
         flex: 1 1 auto;
         padding: 0rem 1rem;
         margin-top:5px!important;
-        height: 520px;
+        height: 650px;
     }
     .card-body-skillsReact{
         -moz-box-flex: 1;
@@ -568,7 +569,7 @@ a {
         flex: 1 1 auto;
         padding: 0rem 1rem;
         margin-top:5px!important;
-        height: 1150px;
+        height: 650px;
     }
     .card-body-experienceElectron{
         -moz-box-flex: 1;
