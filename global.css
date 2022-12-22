@@ -601,8 +601,11 @@ a {
         margin-top:5px!important;
         height: 330px;
     }
-    .button-bottom {
-        widht:25%
+    #button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width:25%;
     }
 }
 
