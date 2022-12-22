@@ -519,13 +519,14 @@ a {
 @media (max-width: 1200px) {
     .main-container{
         margin-top:5%;
-        margin-left:10%;
+        margin-left:15%;
         margin-bottom:5%;
         width:100%;
     }
 
     .img-fluid {
         max-width: 100%;
+        height: 100px;
         display: flex;
     }
     
@@ -541,7 +542,7 @@ a {
         flex: 1 1 auto;
         padding: 0rem 1rem;
         margin-top:5px!important;
-        height: 650px;
+        height: 750px;
     }
     .card-body-skillsReact{
         -moz-box-flex: 1;
@@ -569,7 +570,7 @@ a {
         flex: 1 1 auto;
         padding: 0rem 1rem;
         margin-top:5px!important;
-        height: 650px;
+        height: 750px;
     }
     .card-body-experienceElectron{
         -moz-box-flex: 1;
@@ -601,17 +602,9 @@ a {
         height: 330px;
     }
     .button-bottom {
-        margin-left:60px;
+        margin-left:0px;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
