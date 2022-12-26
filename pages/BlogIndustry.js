@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
-import {BlogArticles, nodeExperiences, reactProjects, reactNativeProjects, angularProjects, nodeProjects, nocodeProjects} from '../profile'
+import {BlogIndustryArticles, nodeExperiences, reactProjects, reactNativeProjects, angularProjects, nodeProjects, nocodeProjects} from '../profile'
 import Link from 'next/link'
 
 const Blog = () =>
@@ -24,7 +24,7 @@ const Blog = () =>
                     </div>        
 
                     {
-                          BlogArticles.map(({name,description,image,link},i) => (
+                          BlogIndustryArticles.map(({name,description,image,link},i) => (
                             
                                 <div className="col-md-3 p-2" key={i}>
                                 <div className="card h-100">
