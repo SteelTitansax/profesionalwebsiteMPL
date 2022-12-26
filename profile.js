@@ -56,16 +56,26 @@ export const experiences = [
 
 
 export const BlogArticles= [
-    {
+   {
         name: "Power Platform",
-        description:"Introduccion a las tecnologías del entorno Power Platform. PowerApps, Power Automate Power Bi y Virtual Agents",
-        image:"canvas.png",
-        link: "https://www.azurebrains.com/2022/01/31/powerplatform-perspectivas-futuro-parte1/" 
+        description:"Check out articles related with Power Platform",
+        image:"canvas.jpg",
+        url:"/BlogPP",
     }, {
-        name: "Manipulacion Dataverse(1)",
-        description:"Artículo sobre la manipulación de columnas tipo Lookup en Dataverse sobre canvas apps ",
-        image:"Dataverse.jpeg", 
-        link: ""
+        name: "RPA",
+        description:"Check out articles related with RPA",
+        image:"RPA.jpg",
+        url:"/BlogRPA",
+    }, {
+        name: "Machine Learningr",
+        description:"Check out, articles related with Machine Learning"
+        image:"ML.jpg",
+        url:"/BlogML",
+    },  {
+        name: "Industry 4.0",
+        description:"Check out, articles related with Industry 4.0",
+        image:"Industry40.jpg",
+        url:"/BlogIndustry",
     }
     
 ]
