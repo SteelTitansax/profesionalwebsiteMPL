@@ -32,8 +32,8 @@ const Blog = () =>
                                         <img src={`/${image}`} alt="Imagen Portfolio1" className="card-img-top border-bottom" />
                                     </div>
                                     <div className="card-body ">
-                                        <h5 className="text-center"><strong>{name}</strong></h5>
-                                        <p className="text-center">{description}</p>
+                                        <h5 className="text-center text-white"><strong>{name}</strong></h5>
+                                        <p className="text-center text-white">{description}</p>
                                         <div className="text-center">
                                         <a className="btn btn-secondary border button-card" href ={link}>Code</a>
                                         </div>
