@@ -35,7 +35,7 @@ const Blog = () =>
                                         <h5 className="text-center text-white"><strong>{name}</strong></h5>
                                         <p className="text-center text-white">{description}</p>
                                         <div className="text-center">
-                                        <a className="btn btn-secondary border button-card" href ={link}>Code</a>
+                                        <a className="btn btn-secondary border button-card" href ={link}>Read</a>
                                         </div>
                                        
                                     </div>
