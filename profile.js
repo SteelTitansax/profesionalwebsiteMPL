@@ -77,7 +77,7 @@ export const BlogArticles= [
         image:"Industry40.jpg",
         url:"/BlogIndustry",
     }
-    
+   
 ]
 
 
