@@ -59,16 +59,16 @@ export const BlogArticles= [
    {
         name: "Power Platform",
         description:"Check out articles related with Power Platform",
-        image:"canvas.jpg",
+        image:"canvas.png",
         url:"/BlogPP",
     }, {
         name: "RPA",
         description:"Check out articles related with RPA",
-        image:"RPA.jpg",
+        image:"uipath.jpg",
         url:"/BlogRPA",
     }, {
-        name: "Machine Learningr",
-        description:"Check out, articles related with Machine Learning"
+        name: "Machine Learning",
+        description:"Check out, articles related with Machine Learning",
         image:"ML.jpg",
         url:"/BlogML",
     },  {
