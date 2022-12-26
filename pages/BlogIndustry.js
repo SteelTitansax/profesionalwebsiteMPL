@@ -13,13 +13,13 @@ const Blog = () =>
             <div className="card card-body bg-primary">
                 <div className="row">
                     <div className="col-md-12 border-bottom">
-                        <h1 className="text-center text-light"> Manuel Portero's Blog</h1>
+                        <h1 className="text-center text-light">Industry 4.0</h1>
                     </div>
                         
 
 
                     <div className="col-md-12 mt-3">
-                        <h3 className="text-center text-light"> Sections</h3>
+                        <h3 className="text-center text-light">Articles</h3>
                         <hr className="bg-white "/>
                     </div>        
 
