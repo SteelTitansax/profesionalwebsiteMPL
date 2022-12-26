@@ -24,7 +24,7 @@ const Blog = () =>
                     </div>        
 
                     {
-                          BlogArticles.map(({name,description,image,link},i) => (
+                          BlogArticles.map(({name,description,image,url},i) => (
                             
                                 <div className="col-md-3 p-2" key={i}>
                                 <div className="card h-100">
