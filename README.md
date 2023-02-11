@@ -1,6 +1,6 @@
 # Manuel Portero's professional website.
 
-## Here you can find the different RPA technologies that I've been working with during my career.
+## Here you can find the different porfolios that I've been working with during my career.
 
 ## Live demo : https://profesionalwebsite-mpl.vercel.app/
 
