@@ -30,7 +30,7 @@ const Index = () =>
                 </div>
                 <div className="col-md-2 ml-1">
                     <img src="Cover.jpeg"  className="img-fluid" alt="Imagen perfil"/> <br/>
-                    <a className="btn btn-light border" id="hire-button" href="https://mpl-game-presentation.vercel.app/" >Cover Letter</a>
+                    <a className="btn btn-light border" id="hire-button" href="https://mpl-game-presentation.vercel.app/" >Presentation</a>
                 </div>
             </div>
         </div>
