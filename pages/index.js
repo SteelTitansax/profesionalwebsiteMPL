@@ -20,13 +20,17 @@ const Index = () =>
                     <img src="perfil.jpeg"  className="img-fluid" alt="Imagen perfil"/> <br/>
                     <a className="btn btn-light border" id="hire-button" href="/hireme" >Contact</a>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-8">
                     <h1 >Manuel Portero </h1>
                     <h3 >Software Developer / Industrial Engineer</h3> 
                     <h6 style={{paddingTop:'8px', textAlign:'justify'}}> Hello everybody!. I present myself as a well educated Software developer and Industrial Engineer. An analytical,
                     good problem solver and effective professional. I speak five languages and I have experience as It and Engineer in different countries.
                     I can communicate well and share ideas with others who do not have a scientific or engineering background. Take this web app as a sample of my knowldege and skills. Check my different projects and portfolios, contact me and share your ideas. Wellcome to my Website.</h6>
-                   
+
+                </div>
+                <div className="col-md-2 ml-1">
+                    <img src="Cover.jpeg"  className="img-fluid" alt="Imagen perfil"/> <br/>
+                    <a className="btn btn-light border" id="hire-button" href="https://mpl-game-presentation.vercel.app/" >Cover Letter</a>
                 </div>
             </div>
         </div>
