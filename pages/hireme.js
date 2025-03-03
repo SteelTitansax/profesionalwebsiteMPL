@@ -18,9 +18,7 @@ const hireme = () =>
                         <br/>
                   
                         <br/>
-                        <h5>Email</h5>
                         
-                        <h6>manuel.portero.leiva@gmail.com</h6>
                     </div>
                 </div>
             </div>
