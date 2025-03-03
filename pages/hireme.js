@@ -16,9 +16,7 @@ const hireme = () =>
                             </div>
 
                         <br/>
-                        <h5>Telephone</h5>
-                        
-                        <h6> +34 629947930 ; +44 7846226624</h6>
+                  
                         <br/>
                         <h5>Email</h5>
                         
